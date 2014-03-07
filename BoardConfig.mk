@@ -28,3 +28,5 @@ TARGET_RECOVERY_FSTAB = device/asus/deb/recovery.fstab
 
 -include vendor/asus/deb/BoardConfigVendor.mk
 include device/asus/flo/BoardConfigCommon.mk
+
+BOARD_HAS_NO_SELECT_BUTTON := true
