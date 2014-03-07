@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES := \
     device/asus/deb/fstab.deb:root/fstab.flo \
     device/asus/deb/init.deb.rc:root/init.flo.rc
 
+PRODUCT_COPY_FILES += \
+    device/asus/flo/init_wlan.sh:system/etc/init_wlan.sh
+
 PRODUCT_PACKAGES += \
 	camera.deb
 
