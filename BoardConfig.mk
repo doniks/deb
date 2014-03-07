@@ -30,3 +30,7 @@ TARGET_RECOVERY_FSTAB = device/asus/deb/recovery.fstab
 include device/asus/flo/BoardConfigCommon.mk
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+TARGET_KERNEL_UBUNTU := true
+TARGET_KERNEL_UBUNTU_META := linux-image-flo
+TARGET_KERNEL_UBUNTU_SERIES := trusty
