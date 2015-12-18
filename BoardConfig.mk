@@ -24,5 +24,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/deb
 
 TARGET_RECOVERY_FSTAB = device/asus/deb/fstab.deb
 
+USE_CLANG_PLATFORM_BUILD := true
+
 -include vendor/asus/deb/BoardConfigVendor.mk
 include device/asus/flo/BoardConfigCommon.mk
